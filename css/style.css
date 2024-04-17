@@ -59,7 +59,7 @@ body {
     cursor: pointer;
 }
 .filter {
-    background-color: var(--color-1);
+    background-color: var(--color-5);
     display: flex;
     padding: 2px;
     width: 40px;
@@ -67,7 +67,10 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 1px solid var(--color-3);
+    border: 1px solid var(--color-4);
+}
+.filter:hover{
+    filter: invert(1);
 }
 .filter a img {
     width: 19px;
@@ -104,8 +107,11 @@ body {
     gap: 5px;
     padding: 5px;
     border-radius: 8px;
-    background: var(--color-1);
-    color: var(--color-5);
-    border: 1px solid var(--color-3);
+    background: var(--color-5);
+    color: var(--color-1);
+    border: 1px solid var(--color-4);
+}
+.nav__ul li a:hover{
+    filter: invert(1);
 }
 
