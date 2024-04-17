@@ -58,4 +58,25 @@ body {
     cursor: pointer;
 }
 .main {
+    background: red;
+    padding: var(--space-layout-lr);
+    margin-top: 15px;
 }
+.main__nav {
+    background: violet;
+}
+.nav__ul {
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+.nav__ul li{
+    list-style: none;
+}
+.nav__ul li a{
+    display: flex;
+    text-decoration: none;
+}
+
