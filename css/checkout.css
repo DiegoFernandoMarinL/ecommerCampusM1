@@ -85,3 +85,65 @@ main {
     height: 20px;
     width: 20px;
 }
+.checkout__details {
+}
+.details__product {
+}
+.product__imagen {
+}
+.product__description {
+}
+.product__custom {
+}
+.product__select {
+}
+.section__shopping {
+}
+.shopping__title {
+}
+.section__card {
+}
+
+.section__shopping {
+    margin-top: 20px;
+}
+.shopping__title {
+    margin-bottom: 15px;
+}
+.section__card {
+    margin-bottom: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.dropdown__button {
+    background-color: var(--color-3);
+    border-radius: 5px;
+    width: 100%;
+    color: var(--color-1);
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shopping__card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.shopping__option {
+}
+.dropdown__content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
