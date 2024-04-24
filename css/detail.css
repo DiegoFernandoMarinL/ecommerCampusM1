@@ -9,6 +9,7 @@
     /* background: red; */
     padding: var(--space-layout-padding-lr);
     margin-top: var( --space-layout-padding-t);
+    height: 770px;
 }
 .main__section {
     width: 100%;
