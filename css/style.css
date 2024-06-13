@@ -93,7 +93,7 @@ body {
     flex-direction: row;
     gap: 10px;
     overflow-x: scroll;
-    height: 50px;
+    height: 55px;
     align-items: center;
 }
 .nav__ul li{
@@ -101,7 +101,7 @@ body {
 }
 .nav__ul li a{
     /* background: orange; */
-    width: 120px;
+    width: 125px;
     height: 35px;
     font-family: "EncodeSans-Medium";
     display: flex;
@@ -120,7 +120,11 @@ body {
 .nav__ul li a:hover{
     filter: invert(1);
 }
-
+.nav__ul li a span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .main__article{
     height: 70vh;
     margin-top: 15px;
