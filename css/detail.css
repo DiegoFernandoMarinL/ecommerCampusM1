@@ -31,7 +31,7 @@
 .product__image img{
     width: var(--layout-imagen-width-detail);
     height: var(--layout-imagen-height-detail);
-    object-fit: cover;
+    object-fit: scale-down;
 }
 .product__menu {
     /* background: violet; */
