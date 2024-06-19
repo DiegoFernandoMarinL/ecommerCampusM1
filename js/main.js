@@ -1,7 +1,6 @@
 import { menuListCategoryIndex } from "./components/menu.js";
 import { galleryIndex } from "./components/gallery.js";
 import { getAllProductName, getAllCategory, getAllProductRandom } from "./module/app.js";
-import { getProductId } from "./module/detail.js";
 
 
 let input__search = document.querySelector("#input__search");
@@ -48,7 +47,7 @@ addEventListener("DOMContentLoaded", async e=>{
     nav__ul.innerHTML = await menuListCategoryIndex(JSON.parse(localStorage.getItem("getAllCategory")));  
     
     history.pushState(null, "", "?id=fashion");
-    input__search.value = "games";
+    input__search.value = "zapatos";
     const eventoChange = new Event('change');
     input__search.dispatchEvent(eventoChange);
     
