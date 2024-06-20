@@ -46,12 +46,10 @@ addEventListener("DOMContentLoaded", async e=>{
     if(!localStorage.getItem("getAllCategory")) localStorage.setItem("getAllCategory", JSON.stringify(await getAllCategory()));
     nav__ul.innerHTML = await menuListCategoryIndex(JSON.parse(localStorage.getItem("getAllCategory")));  
     
-    history.pushState(null, "", "?id=fashion");
-    input__search.value = "zapatos";
+    history.pushState(null, "", "?id=aps");
+    input__search.value = "all";
     const eventoChange = new Event('change');
     input__search.dispatchEvent(eventoChange);
-    
-   
 })
 
 input__search.addEventListener("change", searchProducts);
