@@ -53,6 +53,7 @@
 }
 .detail__head h1{
     font-family: "EncodeSans-SemiBold";
+    color: var(--color-2);
 }
 .product__select {
     display: flex;  
@@ -62,6 +63,7 @@
 }
 .product__select span{
     font-family: "EncodeSans-Bold";
+    color: var(--color-2);
 }
 .detail__score {
     display: flex;
@@ -69,7 +71,7 @@
     align-items: center;
 }
 .detail__score span{
-    color: var(--color-3);
+    color: var(--color-2);
 }
 .detail__score a{
     text-decoration: none;
@@ -78,7 +80,7 @@
     /* background: red; */
     width: 75%;
     margin-top: 15px;
-    color: var(--color-3);
+    color: var(--color-2);
 }
 .product__information strong{
     color: var(--color-2);
@@ -113,7 +115,7 @@
     padding: var(--space-layout-padding-lr);
 }
 .footer__ul{
-    background: var(--color-4);
+    background: var(--color-2);
     height: 55px;
     display: flex;
     flex-direction: row;
