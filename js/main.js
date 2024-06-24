@@ -8,7 +8,6 @@ let main__article = document.querySelector(".main__article");
 let nav__ul = document.querySelector(".nav__ul");
 
 let searchProducts = async e => {
-
     let params = new URLSearchParams(location.search);
     let dataSearch = { search : e.target.value, id: params.get('id')}
     input__search.value = null;
@@ -41,13 +40,12 @@ let searchProducts = async e => {
 
 }
 
-
 addEventListener("DOMContentLoaded", async e=>{
     if(!localStorage.getItem("getAllCategory")) localStorage.setItem("getAllCategory", JSON.stringify(await getAllCategory()));
     nav__ul.innerHTML = await menuListCategoryIndex(JSON.parse(localStorage.getItem("getAllCategory")));  
     
-    history.pushState(null, "", "?id=aps");
-    input__search.value = "games";
+    history.pushState(null, "", "?id=fashion");
+    input__search.value = "zapatos";
     const eventoChange = new Event('change');
     input__search.dispatchEvent(eventoChange);
 })
